@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = '7.0'
 
-  s.source       = { :git => "https://github.com/marcosrdz/react-native-tooltip.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/jeremyeaton89/react-native-tooltip.git", :tag => "#{s.version}" }
   s.preserve_paths = '*'
   s.source_files  = "ToolTipMenu/*.{h,m}"
 
